@@ -1,0 +1,27 @@
+{
+  "name": "emitterpoint",
+  "description": "Wraps a duplex object stream and returns an event emitter",
+  "version": "0.2.0",
+  "author": "Andreas Madsen <amwebdk@gmail.com>",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "main": "./emitterpoint.js",
+  "repository" : {
+    "type": "git",
+    "url": "git://github.com/AndreasMadsen/emitterpoint.git"
+  },
+  "keywords": [
+    "event emitter",
+    "stream",
+    "duplex"
+  ],
+  "devDependencies": {
+    "tap": "0.4.x"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "0.10",
+    "npm": "1"
+  }
+}
